@@ -1,0 +1,13 @@
+.Cursor::after {
+  content: "|";
+}
+
+.Cursor.Blinking::after {
+  animation: blink .7s step-start infinite;
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
