@@ -4,8 +4,8 @@
 </div>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Languages-.Net%20%7C%20C%23%20%7C%20.Net%20Core%20%7C%20JavaScript%20%7C%20React%20%7C%20TypeScript%20%7C%20Unity%20%7C%20PHP%20%7C%20Laravel%20%7C%20Python%20%7C%20Django%20%7C%20Solidity-blueviolet" alt="Languages">
-  <img src="https://img.shields.io/badge/Cloud-AWS%20%7C%20Google%20Cloud%20%7C%20Azure-orange" alt="Cloud Platforms">
+  <img src="https://img.shields.io/badge/Languages-.Net%20%7C%20C%23%20%7C%20.Net%20Core%20%7C%20JavaScript%20%7C%20React%20%7C%20TypeScript%20%7C%20Unity%20%7C%20PHP%20%7C%20Laravel%20%7C%20Python%20%7C%20Django%20%7C%20Solidity-blueviolet" alt="Languages"> <br>
+  <img src="https://img.shields.io/badge/Cloud-AWS%20%7C%20Google%20Cloud%20%7C%20Azure-orange" alt="Cloud Platforms"> <br>
   <img src="https://img.shields.io/badge/Tools-Docker%20%7C%20Github%20%7C%20GitLab-blue" alt="Tools">
 </p>
 
