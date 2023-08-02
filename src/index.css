@@ -34,11 +34,11 @@
 }
 
 .violet-gradient {
-  background: #804dee;
-  background: linear-gradient(-90deg, #804dee 0%, rgba(60, 51, 80, 0) 100%);
+  background: #cfee4d;
+  background: linear-gradient(-90deg, #cfee4d 0%, rgba(60, 51, 80, 0) 100%);
   background: -webkit-linear-gradient(
     -90deg,
-    #804dee 0%,
+    #cfee4d 0%,
     rgba(60, 51, 80, 0) 100%
   );
 }
@@ -112,6 +112,10 @@
   ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.box-shadow-md{
+  box-shadow: 2px 2px 8px black;
 }
 
 /* canvas- styles */

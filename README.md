@@ -58,6 +58,6 @@ Feel free to connect with me for any inquiries or collaboration opportunities.
 - 📧 Email: exagonsoft@gmail.com
 - 🐦 Twitter: [@Exagonsoft](https://twitter.com/Exagonsoft)
 - 📘 LinkedIn: [Alvaro Raul Martin Peraza](https://www.linkedin.com/in/msc-alvaro-raul-martin-peraza-165114210/)
-- GitHub [ExagonSoft](https://github.com/exagonsoft)
+- :octocat: GitHub [ExagonSoft](https://github.com/exagonsoft)
 
 Let's build amazing projects together! 😊
