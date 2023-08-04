@@ -54,7 +54,7 @@ I am passionate about software development and love to tackle complex challenges
 
 Feel free to connect with me for any inquiries or collaboration opportunities.
 
-- 🌐 Website: [https://www.exagon-soft.com](https://main.dexh23n8s6kq6.amplifyapp.com/){:target="_blank"}
+- 🌐 Website: <a href="https://main.dexh23n8s6kq6.amplifyapp.com/" target="_blank">https://www.exagon-soft.com</a>
 - 📧 Email: exagonsoft@gmail.com
 - 🐦 Twitter: [@Exagonsoft](https://twitter.com/Exagonsoft)
 - 📘 LinkedIn: [Alvaro Raul Martin Peraza](https://www.linkedin.com/in/msc-alvaro-raul-martin-peraza-165114210/)
