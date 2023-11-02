@@ -24,6 +24,7 @@ I specialize in the following languages and frameworks:
 - .Net
 - C#
 - .Net Core
+- Java
 - JavaScript
 - React
 - TypeScript
