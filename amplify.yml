@@ -4,15 +4,15 @@ frontend:
     preBuild:
       commands:
         - |
-          if [ ! -d "/dist" ]; then
-            mkdir /dist
+          if [ ! -d "/build" ]; then
+            mkdir /build
           fi
         - npm ci
     build:
       commands:
         - npm run build
   artifacts:
-    baseDirectory: /dist
+    baseDirectory: /build
     files:
       - '**/*'
   cache:
