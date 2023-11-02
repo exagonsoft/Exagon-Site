@@ -9,10 +9,10 @@ const Computers = (props) => {
   const computer = useGLTF("./desktop_pc/scene.gltf");
   return (
     <mesh>
-      <hemisphereLight intensity={0.4} groundColor="black" />
+      <hemisphereLight intensity={0.4} groundColor="white" />
       <directionalLight
-        position={[-50, 100, 0]}
-        intensity={10}
+        position={[-50, 200, 0]}
+        intensity={12}
         angle={0.12}
         penumbra={1}
         castShadow
@@ -23,8 +23,9 @@ const Computers = (props) => {
         object={computer.scene}
         scale={isMobile ? 0.60 : 0.75}
         position={isMobile ? [0, -3, 0] : [0, -2.9, -1.5]}
+        rotation={[0, 0, -0.15]}
       />
-      rotation={[-0.01, -0.2, -0.1]}
+      
     </mesh>
   );
 };
