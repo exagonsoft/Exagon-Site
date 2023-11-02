@@ -23,7 +23,16 @@ import {
   jobit,
   tripguide,
   threejs,
+  java,
+  softwareeng,
+  angular,
+  dotnet,
+  sql
 } from "../assets/pictures";
+import Logo  from '../assets/pictures/logoicon.png'
+import ALogo from '../assets/pictures/alephengineering.png'
+import GLogo from '../assets/pictures/gulftreamicon.png'
+import MIcon from '../assets/pictures/movilmundoicon.png'
 
 export const navLinks = [
   {
@@ -42,19 +51,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Full Stack Developer.",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Game Developer.",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Software Engineer.",
+    icon: softwareeng,
   },
   {
-    title: "Content Creator",
+    title: "Clouds Architect.",
     icon: creator,
   },
 ];
@@ -81,6 +90,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "Angular",
+    icon: angular,
+  },
+  {
     name: "Redux Toolkit",
     icon: redux,
   },
@@ -93,20 +106,24 @@ const technologies = [
     icon: nodejs,
   },
   {
+    name: "Java",
+    icon: java,
+  },
+  {
+    name: "Microsoft .NET",
+    icon: dotnet,
+  },
+  {
     name: "MongoDB",
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "SQL",
+    icon: sql,
   },
   {
     name: "git",
     icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
   },
   {
     name: "docker",
@@ -116,54 +133,73 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
+    title: "ASP .Net Developer",
+    company_name: "Soft-Logics",
     icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "March 2007 - December 2009",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Upgrading and maintaining web applications using ASP .NET and other related technologies.",
+      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing and ensuring cross-browser compatibility.",
+      "Participating in code reviews and providing constructive feedback to other developers.",
+    ],
+  },
+  {
+    title: "ASP .Net Developer",
+    company_name: "Gulfstream Training Academy",
+    icon: GLogo,
+    iconBg: "#383E56",
+    date: "January 2010 - February 2011",
+    points: [
+      "Developing and maintaining a new web application, from the scratch using using ASP .NET and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "Game Developer",
+    company_name: "Movil World",
+    icon: MIcon,
+    iconBg: "#E6DEDD",
+    date: "January 2012 - January 2014",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and Deploy a multi platform video game using UNITY",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Implementing cross-platform compatibility for Windows, Linux, MAcOs and Android.",
+      "Participating in assets design and code reviews",
+    ],
+  },
+  {
+    title: "Full stack Developer",
+    company_name: "Exagon-Soft",
+    icon: Logo,
+    iconBg: "#383E56",
+    date: "March 2015 - August 2022",
+    points: [
+      "Developing and maintaining web applications using React.js, Angular, PHP, Java, ASP .NET, ASP .NET CORE and other related technologies.",
+      "Collaborating with cross-functional Companies teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Applying modern code syntax and complex algorithms",
+      "Implementing Cloud Architecture",
+      "Modeling Data Base Architecture and ORM Relations",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
     title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    company_name: "Aleph Engineering",
+    icon: ALogo,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "September 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+      "Developing and maintaining web applications using React.js, Angular, PHP, Java, ASP .NET, ASP .NET CORE and other related technologies.",
+      "Collaborating with cross-functional Companies teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
+      "Applying modern code syntax and complex algorithms",
+      "Implementing Cloud Architecture",
+      "Modeling Data Base Architecture and ORM Relations",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },

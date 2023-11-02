@@ -9,8 +9,8 @@ const Hero = () => {
     "3D Web Developer",
     "Indie Game Developer",
     "Azure Cloud Solution Developer",
-    "Google Cloud Architecture",
-    "AWS Cloud Architecture",
+    "Google Cloud Architect",
+    "AWS Cloud Architect",
   ];
   return (
     <section className="relative w-full h-screen mx-auto">

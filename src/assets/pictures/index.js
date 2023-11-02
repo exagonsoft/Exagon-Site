@@ -1,5 +1,4 @@
-import logo from "./logo.svg";
-import logoicon from "./logoicon.png"
+import logoicon from "./logoicon.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -30,9 +29,13 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import java from "./tech/java.png";
+import softwareeng from "./softwareengeen.png";
+import dotnet from "./tech/dotnet.png";
+import angular from "./tech/angular.png";
+import sql from "./tech/sql.png";
 
 export {
-  logo,
   logoicon,
   backend,
   creator,
@@ -48,8 +51,10 @@ export {
   html,
   javascript,
   mongodb,
+  sql,
   nodejs,
   reactjs,
+  angular,
   redux,
   tailwind,
   typescript,
@@ -61,4 +66,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  java,
+  dotnet,
+  softwareeng
 };
