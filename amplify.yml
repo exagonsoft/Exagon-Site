@@ -3,6 +3,10 @@ frontend:
   phases:
     preBuild:
       commands:
+        - |
+          if [ ! -d "/dist" ]; then
+            mkdir /dist
+          fi
         - npm ci
     build:
       commands:
@@ -14,3 +18,4 @@ frontend:
   cache:
     paths:
       - node_modules/**/*
+
