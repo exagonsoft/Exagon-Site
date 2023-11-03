@@ -249,6 +249,11 @@
     display: grid;
     grid-template-columns: 1fr;
   }
+
+  .grid-full-container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
 }
 
 @keyframes mulShdSpin {
