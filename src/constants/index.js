@@ -34,7 +34,10 @@ import {
   flexsport,
   drones,
   fitgames,
-  shieldbearer
+  shieldbearer,
+  fundationalmicrosoft,
+  awsarchitect,
+  unityjunior
 } from "../assets/pictures";
 import Logo from "../assets/pictures/logoicon.png";
 import ALogo from "../assets/pictures/alephengineering.png";
@@ -47,8 +50,20 @@ export const navLinks = [
     title: "About",
   },
   {
-    id: "work",
-    title: "Work",
+    id: "experience",
+    title: "Experience",
+  },
+  {
+    id: "tech_stack",
+    title: "Tech Stack",
+  },
+  {
+    id: "works",
+    title: "Projects",
+  },
+  {
+    id: "achievements",
+    title: "Achievements",
   },
   {
     id: "contact",
@@ -408,4 +423,22 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const certifications = [
+  {
+    name: "Foundational C# with Microsoft",
+    url:"https://www.freecodecamp.org/certification/exagonsoft/foundational-c-sharp-with-microsoft",
+    image: fundationalmicrosoft
+  },
+  {
+    name: "AWS Cloud Solutions Architect",
+    url:"https://www.coursera.org/account/accomplishments/professional-cert/6CJC8FHRQGV5",
+    image: awsarchitect
+  },
+  {
+    name: "Unity Junior Programmer",
+    url:"https://www.credly.com/badges/4f08bb76-010f-41d2-9879-5ab051dc4b02",
+    image: unityjunior
+  },
+]
+
+export { services, technologies, experiences, testimonials, projects, certifications };

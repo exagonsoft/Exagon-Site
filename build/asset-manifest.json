@@ -1,19 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.4b052786.css",
-    "main.js": "/static/js/main.f8c1494e.js",
+    "main.css": "/static/css/main.2c1f4582.css",
+    "main.js": "/static/js/main.dc5ac4af.js",
     "static/js/787.8fd0daf2.chunk.js": "/static/js/787.8fd0daf2.chunk.js",
     "static/media/tripguide.png": "/static/media/tripguide.991986c795ea140ba063.png",
     "static/media/affilianet.png": "/static/media/affilianet.5d05f1465fe0ef84f603.png",
     "static/media/fitgames.png": "/static/media/fitgames.7ea4f26a8f01387d8649.png",
     "static/media/herobg.png": "/static/media/herobg.ad33add2430e34307c33.png",
+    "static/media/awsarchitect.png": "/static/media/awsarchitect.606358b21ff45766a24e.png",
     "static/media/carrent.png": "/static/media/carrent.6b1e855ede285c40b77f.png",
     "static/media/jobit.png": "/static/media/jobit.755da7149642fd049273.png",
     "static/media/gulftream.png": "/static/media/gulftream.8dbb49625c457980ec11.png",
     "static/media/drones.png": "/static/media/drones.95efd256b969786b423b.png",
+    "static/media/fundationalmicrosoft.png": "/static/media/fundationalmicrosoft.abe15a0d622c11efab49.png",
     "static/media/flexsport.png": "/static/media/flexsport.86eb134b59d0e1adbfd1.png",
     "static/media/softwareengeen.png": "/static/media/softwareengeen.349695e3f140ed584f11.png",
     "static/media/shieldbearer.png": "/static/media/shieldbearer.3d4c3fea9acf93377a3e.png",
+    "static/media/unityjunior.png": "/static/media/unityjunior.f0b6de191aa472e00c24.png",
     "static/media/mathattack.png": "/static/media/mathattack.f5fdf2cad9335bd2a9b1.png",
     "static/media/starbucks.png": "/static/media/starbucks.e4bcc4b689019a4f170e.png",
     "static/media/creator.png": "/static/media/creator.9905b7d0d5387ab00a5d.png",
@@ -30,12 +33,12 @@
     "static/media/menu.svg": "/static/media/menu.acf64a387fc724c7a47a3a0120d5dc52.svg",
     "static/media/threejs.svg": "/static/media/threejs.34d1dab4caddf9c51437e9bafd282582.svg",
     "index.html": "/index.html",
-    "main.4b052786.css.map": "/static/css/main.4b052786.css.map",
-    "main.f8c1494e.js.map": "/static/js/main.f8c1494e.js.map",
+    "main.2c1f4582.css.map": "/static/css/main.2c1f4582.css.map",
+    "main.dc5ac4af.js.map": "/static/js/main.dc5ac4af.js.map",
     "787.8fd0daf2.chunk.js.map": "/static/js/787.8fd0daf2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4b052786.css",
-    "static/js/main.f8c1494e.js"
+    "static/css/main.2c1f4582.css",
+    "static/js/main.dc5ac4af.js"
   ]
 }

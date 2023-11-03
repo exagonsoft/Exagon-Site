@@ -41,6 +41,9 @@ import flexsport from './flexsport.png';
 import drones from './drones.png';
 import fitgames from './fitgames.png';
 import shieldbearer from './shieldbearer.png';
+import fundationalmicrosoft from './fundationalmicrosoft.png';
+import awsarchitect from './awsarchitect.png';
+import unityjunior from './unityjunior.png';
 
 export {
   logoicon,
@@ -82,5 +85,8 @@ export {
   flexsport,
   drones,
   fitgames,
-  shieldbearer
+  shieldbearer,
+  fundationalmicrosoft,
+  awsarchitect,
+  unityjunior
 };
