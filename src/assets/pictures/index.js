@@ -34,6 +34,13 @@ import softwareeng from "./softwareengeen.png";
 import dotnet from "./tech/dotnet.png";
 import angular from "./tech/angular.png";
 import sql from "./tech/sql.png";
+import gulftream from './gulftream.png';
+import affilianet from './affilianet.png';
+import mathattack from './mathattack.png';
+import flexsport from './flexsport.png';
+import drones from './drones.png';
+import fitgames from './fitgames.png';
+import shieldbearer from './shieldbearer.png';
 
 export {
   logoicon,
@@ -68,5 +75,12 @@ export {
   tripguide,
   java,
   dotnet,
-  softwareeng
+  softwareeng,
+  gulftream,
+  affilianet,
+  mathattack,
+  flexsport,
+  drones,
+  fitgames,
+  shieldbearer
 };

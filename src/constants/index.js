@@ -27,12 +27,19 @@ import {
   softwareeng,
   angular,
   dotnet,
-  sql
+  sql,
+  gulftream,
+  affilianet,
+  mathattack,
+  flexsport,
+  drones,
+  fitgames,
+  shieldbearer
 } from "../assets/pictures";
-import Logo  from '../assets/pictures/logoicon.png'
-import ALogo from '../assets/pictures/alephengineering.png'
-import GLogo from '../assets/pictures/gulftreamicon.png'
-import MIcon from '../assets/pictures/movilmundoicon.png'
+import Logo from "../assets/pictures/logoicon.png";
+import ALogo from "../assets/pictures/alephengineering.png";
+import GLogo from "../assets/pictures/gulftreamicon.png";
+import MIcon from "../assets/pictures/movilmundoicon.png";
 
 export const navLinks = [
   {
@@ -234,67 +241,170 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Gulftream Academy",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Academy 147 serves a worldwide audience and is composed of staff based in Malta and the USA, together with a team of instructors, each strategically positioned in order to efficiently provide training around the globe.",
     tags: [
       {
-        name: "react",
+        name: "Asp .NET",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
+        name: "SQL Server",
+        color: "blue-sky-gradient",
       },
       {
-        name: "tailwind",
+        name: "NHibernate",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: gulftream,
+    source_code_link: [""],
+    examples_link: "https://www.academy147.com",
   },
   {
-    name: "Job IT",
+    name: "Affilia-Net",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web platform for an online affiliate network focus in the online gaming industry and the finance market. With more than 15 years of experience in these industries, Affilia-Net offers a wide variety of affiliate campaigns for these markets, such as sports betting campaigns, casinos, bingo, forex, binary, and even payment solutions.",
     tags: [
       {
-        name: "react",
+        name: "Asp .Net",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
-        color: "green-text-gradient",
+        name: "SQL Server",
+        color: "blue-sky-gradient",
       },
       {
-        name: "scss",
-        color: "pink-text-gradient",
+        name: "CSS",
+        color: "css-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: affilianet,
+    source_code_link: [""],
+    examples_link: "https://www.affilia-net.com",
   },
   {
-    name: "Trip Guide",
+    name: "Math Attack",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Tech Game demo for an educational Game, it proposes a mental agility tool, designed to exercise arithmetic operations in children, while having fun.",
     tags: [
       {
-        name: "nextjs",
+        name: "Unity",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Gimp II",
         color: "green-text-gradient",
       },
+    ],
+    image: mathattack,
+    source_code_link: ["https://github.com/exagonsoft/Math-Attack"],
+    examples_link: "https://exagonsoft.itch.io/math-attack",
+  },
+  {
+    name: "FlexSport",
+    description:
+      "FlexSport Fitness Group, platform admin Site, designed to manage the hole FexSport System.",
+    tags: [
       {
-        name: "css",
-        color: "pink-text-gradient",
+        name: "Angular",
+        color: "red-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "olive-green",
+      },
+      {
+        name: "AWS Cloud",
+        color: "aws-text-gradient",
+      },
+      {
+        name: "MySQL",
+        color: "blue-sky-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: flexsport,
+    source_code_link: [""],
+    examples_link: "",
+  },
+  {
+    name: "FlexSport Landing",
+    description:
+      "Landing Page from the FlexSport Fitness Trainers Group, acting as portal for the FlexSport Fitness platform.",
+    tags: [
+      {
+        name: "React JS",
+        color: "blue-sky-gradient",
+      },
+      {
+        name: "CSS",
+        color: "css-text-gradient",
+      },
+      {
+        name: "AWS Cloud",
+        color: "aws-text-gradient",
+      }
+    ],
+    image: fitgames,
+    source_code_link: [""],
+    examples_link: "https://www.flexsport.de",
+  },
+  {
+    name: "Drones Management Board",
+    description:
+      "The system provides a user-friendly interface for managing a fleet of drones, monitoring their status, and ensuring seamless communication between drones and ground control.",
+    tags: [
+      {
+        name: "React JS",
+        color: "blue-sky-gradient",
+      },
+      {
+        name: "Docker",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "css-text-gradient",
+      },
+      {
+        name: "Java SpringBoot",
+        color: "red-text-gradient",
+      },
+      {
+        name: "H2 inMemory",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: drones,
+    source_code_link: ["https://github.com/exagonsoft/Drones-Managment-Board", "https://github.com/exagonsoft/drones-management-board-backend"],
+    examples_link: "",
+  },
+  {
+    name: "ShieldBearer",
+    description:
+      "ShieldBearer is a lightweight JavaScript library for seamless JSON Web Token (JWT) handling. This minimalistic library provides essential methods to sign, decode, and validate tokens effortlessly.",
+    tags: [
+      {
+        name: "JavaScript",
+        color: "yellow-sun-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "blue-sky-gradient",
+      },
+      {
+        name: "Node",
+        color: "olive-green",
+      },
+      {
+        name: "Shell",
+        color: "shell-console",
+      },
+    ],
+    image: shieldbearer,
+    source_code_link: ["https://github.com/exagonsoft/ShieldBearer"],
+    examples_link: "https://www.npmjs.com/package/shieldbearer",
   },
 ];
 
