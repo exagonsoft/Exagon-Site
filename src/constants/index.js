@@ -66,10 +66,16 @@ export const navLinks = [
     title: "Achievements",
   },
   {
+    id: "feedbacks",
+    title: "Feedbacks",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
 ];
+
+
 
 const services = [
   {
@@ -91,14 +97,14 @@ const services = [
 ];
 
 const technologies = [
-  {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
-    name: "CSS 3",
-    icon: css,
-  },
+  // {
+  //   name: "HTML 5",
+  //   icon: html,
+  // },
+  // {
+  //   name: "CSS 3",
+  //   icon: css,
+  // },
   {
     name: "JavaScript",
     icon: javascript,

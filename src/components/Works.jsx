@@ -38,9 +38,10 @@ const ProjectCard = ({
           <div className="absolute top-[-5px] right-[-5px] w-max h-max justify-end gap-1 m-3 card-img_hover">
             {source_code_link.map((source_link, index) => (
               <div
+                
                 title="Github Repository"
                 key={index}
-                className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer relative z-50 hover:shadow-card"
+                className={`${source_link ? '' : 'hidden'} black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer relative z-50 hover:shadow-card`}
                 onClick={(e) => {
                   e.stopPropagation();
                   window.open(source_link, "_blank");
