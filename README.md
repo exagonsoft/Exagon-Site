@@ -1,7 +1,7 @@
-<div style="display: flex; flex-direction: column; justify-content: center; align-items: center">
-<h1 align="center">Alvaro Raul Martin Peraza - Full Stack Developer</h1>
-<img src="src/assets/pictures/formal-image.png" alt="Me" style="border-radius: 50%; width: 200px; height: 200px; margin: 20px 0; align:center"/>
-</div>
+<p align="center">
+  <img src="./public/formal-image.png" width="150" height="150" style="border-radius: 50%"/>
+</p>
+<h1 align="center">Alvaro Raul Martin Peraza</h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Languages-.Net%20%7C%20C%23%20%7C%20.Net%20Core%20%7C%20JavaScript%20%7C%20React%20%7C%20TypeScript%20%7C%20Unity%20%7C%20PHP%20%7C%20Laravel%20%7C%20Python%20%7C%20Django%20%7C%20Solidity-blueviolet" alt="Languages"> <br>
