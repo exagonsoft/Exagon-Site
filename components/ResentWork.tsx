@@ -5,13 +5,15 @@ import { FaLocationArrow } from "react-icons/fa";
 
 const ResentWork = () => {
   return (
-    <section id='projects' className="py-20">
+    <section id="projects" className="py-20">
       <h1 className="heading">
         A small section of <span className="text-purple">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map(({ id, title, des, iconLists, img, link }) => (
-          <div
+          <a
+            href={link}
+            target="_blank"
             key={id}
             className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px]  w-[80vw]"
           >
@@ -41,12 +43,14 @@ const ResentWork = () => {
                   ))}
                 </div>
                 <div className="flex justify-center items-center">
-                  <p className="flex lg:text-lg md:text-xs text-sm text-purple">Check Live Site</p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9"/>
+                  <p className="flex lg:text-lg md:text-xs text-sm text-purple">
+                    Check Live Site
+                  </p>
+                  <FaLocationArrow className="ms-3" color="#CBACF9" />
                 </div>
               </div>
             </PinContainer>
-          </div>
+          </a>
         ))}
       </div>
     </section>
