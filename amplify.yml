@@ -3,19 +3,19 @@ frontend:
   phases:
     preBuild:
       commands:
-        - |
-          if [ ! -d "/build" ]; then
-            mkdir /build
-          fi
         - npm ci
     build:
       commands:
         - npm run build
   artifacts:
-    baseDirectory: /build
+    # IMPORTANT - Please verify your build output directory
+    baseDirectory: .next
     files:
       - '**/*'
   cache:
     paths:
       - node_modules/**/*
-
+  runtime:
+    # Specify the Node.js version
+    runtime: nodejs
+    version: 20.5.0
