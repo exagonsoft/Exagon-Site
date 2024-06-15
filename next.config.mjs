@@ -1,6 +1,8 @@
 import {withSentryConfig} from '@sentry/nextjs';
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+    trailingSlash: true,
+};
 
 export default withSentryConfig(nextConfig, {
 // For all available options, see:
