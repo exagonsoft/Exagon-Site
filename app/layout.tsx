@@ -19,7 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>Exagon-Soft</title>
-        <link rel="icon" type="image/icon" href="/favicon.ico" />
+        <link rel="icon" type="image/icon" href="/favicon.png" />
         <meta name="title" content="Exagon-Soft" />
         <meta
           name="description"
