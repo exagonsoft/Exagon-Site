@@ -19,6 +19,7 @@ export default function RootLayout({
     <html lang="en">
       <head>
         <title>Exagon-Soft</title>
+        <link rel="icon" type="image/icon" href="/favicon.ico" />
         <meta name="title" content="Exagon-Soft" />
         <meta
           name="description"
@@ -36,7 +37,7 @@ Delivering Custom Software and Innovative Technology to Propel Your Business For
         />
         <meta
           property="og:image"
-          content="https://metatags.io/images/meta-tags.png"
+          content="https://www.exagon-soft.com/social-meta.png"
         />
 
         <meta property="twitter:card" content="summary_large_image" />
@@ -49,7 +50,7 @@ Delivering Custom Software and Innovative Technology to Propel Your Business For
         />
         <meta
           property="twitter:image"
-          content="https://metatags.io/images/meta-tags.png"
+          content="https://www.exagon-soft.com/social-meta.png"
         />
 
         <meta
