@@ -1,6 +1,8 @@
 import React from "react";
 import { InfiniteMovingCards } from "./ui/InfiniteCards";
 import { companies, testimonials } from "@/data";
+import MagicButton from "./ui/MagicButton";
+import { FaComment } from "react-icons/fa";
 
 const Clients = () => {
   return (
@@ -15,6 +17,7 @@ const Clients = () => {
           direction="right"
           speed="slow"
         />
+        <div className="w-full flex justify-center items-center"><MagicButton text="Give me your Feedback" icon={<FaComment />} position="right"/></div>
         <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 mt-20 py-2">
             {companies.map(({id, img, name, nameImg}) => (
                 <div key={id} className="flex md:max-w-60 max-w-32 gap-2">
