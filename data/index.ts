@@ -75,7 +75,14 @@ export const projects = [
     title: "E-Commerce - Web Application",
     des: "Do you have family or friends residing in Cuba?... ZendC gives you the possibility of sending products directly to their homes at INCREDIBLE prices.",
     img: "/p1.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/node.png", "postgres.png", "/vercel.png"],
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/node.png",
+      "postgres.png",
+      "/vercel.png",
+    ],
     link: "https://zendc.vercel.app",
   },
   {
@@ -83,7 +90,14 @@ export const projects = [
     title: "NFT Stacking Idle Game - Web3 Application",
     des: "Increase your capital by having fun. Experience the adventure universe of Krafting Kingdoms; Build your Kingdom, Defeat Epic Monsters, Forge New Equipment, and in the meantime..., WIN FOR IT.",
     img: "/p2.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/tw.png", "/dock.svg", "aws.png"],
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/tw.png",
+      "/dock.svg",
+      "aws.png",
+    ],
     link: "https://crafting.kingdoms.exagon-soft.com",
   },
   {
@@ -91,7 +105,14 @@ export const projects = [
     title: "Currency Exchange Calculator - Social Platform",
     des: "In-Your-coin keeps you up to date with Cuba's formal and informal exchange market. Calculate your prices in the most used currencies within the country without having to be online.",
     img: "/p3.png",
-    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/node.png", "postgres.png", "/vercel.png"],
+    iconLists: [
+      "/next.svg",
+      "/tail.svg",
+      "/ts.svg",
+      "/node.png",
+      "postgres.png",
+      "/vercel.png",
+    ],
     link: "https://in-your-coin-api-next.vercel.app/",
   },
   {
@@ -115,64 +136,69 @@ export const projects = [
 export const testimonials = [
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Working with Alvaro was a remarkable experience. His expertise, timely communication, and commitment to excellence were apparent at every stage of our collaboration. Alvaro's passion for web development and design is truly inspiring. If you need to enhance your website and elevate your brand, Alvaro is the perfect partner.",
+    name: "Sarah Bennett",
+    title: "Marketing Manager at Orion Solutions",
+    image: '/profile.svg'
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Alvaro's work ethic and skill set exceeded our expectations. From the initial consultation to the final delivery, his attention to detail and creative approach were exceptional. Alvaro's dedication to providing top-notch solutions makes him an invaluable asset. I highly recommend Alvaro for anyone looking to take their online presence to the next level.",
+    name: "David Thompson",
+    title: "CEO of BrightWave Innovations",
+    image: '/profile2.svg'
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Partnering with Alvaro was an excellent decision for our company. His professionalism, efficiency, and innovative mindset were crucial in bringing our project to life. Alvaro's ability to understand our vision and execute it flawlessly is commendable. For outstanding web development services, Alvaro is the go-to expert.",
+    name: "Jessica Wright",
+    title: "Head of Digital at NovaTech Enterprises",
+    image: '/profile3.svg'
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Alvaro brought a level of creativity and expertise to our project that was truly impressive. His dedication to delivering high-quality results on time and within budget was unwavering. Alvaro's enthusiasm and mastery of web development were key to our project's success. I wholeheartedly recommend Alvaro for any web development needs.",
+    name: "Brian Martinez",
+    title: "CTO of Quantum Leap Technologies",
+    image: '/profile4.svg'
   },
   {
     quote:
-      "Collaborating with Adrian was an absolute pleasure. His professionalism, promptness, and dedication to delivering exceptional results were evident throughout our project. Adrian's enthusiasm for every facet of development truly stands out. If you're seeking to elevate your website and elevate your brand, Adrian is the ideal partner.",
-    name: "Michael Johnson",
-    title: "Director of AlphaStream Technologies",
+      "Collaborating with Alvaro was a seamless and rewarding experience. His professionalism, prompt delivery, and dedication to excellence made a significant impact on our project. Alvaro's passion for development and his innovative solutions stood out remarkably. For those looking to improve their website and brand, Alvaro is the ideal partner.",
+    name: "Emily Harris",
+    title: "Founder and CEO of Stellar Media Group",
+    image: '/profile5.svg'
   },
 ];
 
 export const companies = [
   {
     id: 1,
-    name: "cloudinary",
-    img: "/cloud.svg",
-    nameImg: "/cloudName.svg",
-  },
-  {
-    id: 2,
-    name: "appwrite",
+    name: "Soft-Logics",
     img: "/app.svg",
     nameImg: "/appName.svg",
   },
   {
+    id: 2,
+    name: "Affilia-Net",
+    img: "/cloud.svg",
+    nameImg: "/cloudName.svg",
+  },
+  {
     id: 3,
-    name: "HOSTINGER",
+    name: "Mobil Mundo",
     img: "/host.svg",
     nameImg: "/hostName.svg",
   },
   {
     id: 4,
-    name: "stream",
+    name: "Exagon-Soft",
     img: "/s.svg",
     nameImg: "/streamName.svg",
   },
   {
     id: 5,
-    name: "docker.",
+    name: "Aleph Engineering.",
     img: "/dock.svg",
     nameImg: "/dockerName.svg",
   },
@@ -181,29 +207,29 @@ export const companies = [
 export const workExperience = [
   {
     id: 1,
-    title: "Frontend Engineer Intern",
-    desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+    title: "Full Stack Developer - Soft Logics",
+    desc: "Developing a Publishers/Advertisements platform using ASP .Net with HTML, CSS, JavaScript and C#.",
     className: "md:col-span-2",
     thumbnail: "/exp1.svg",
   },
   {
     id: 2,
-    title: "Mobile App Dev - JSM Tech",
-    desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
+    title: "Mobile Game Dev - Mobil Mundo",
+    desc: "Designed and developed Dentist simulator mobile Game for both Android platform using Java.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp2.svg",
   },
   {
     id: 3,
-    title: "Freelance App Dev Project",
-    desc: "Led the dev of a mobile app for a client, from initial concept to deployment on app stores.",
+    title: "Freelance - Exagon-Soft",
+    desc: "Led the dev of various projects for different clients using many different technologies.",
     className: "md:col-span-2", // change to md:col-span-2
     thumbnail: "/exp3.svg",
   },
   {
     id: 4,
-    title: "Lead Frontend Developer",
-    desc: "Developed and maintained user-facing features using modern frontend technologies.",
+    title: "Software Architect - Aleph Engineering",
+    desc: "Developed and maintained user-facing features using modern frontend, backend and cloud technologies.",
     className: "md:col-span-2",
     thumbnail: "/exp4.svg",
   },

@@ -34,7 +34,7 @@ const HeroSection = () => {
             Delivering Custom Software and Innovative Technology to Propel Your
             Business Forward
           </p>
-          <a href="#about" className=""><MagicButton text="See Our Work" icon={<FaLocationArrow />} position="right"/></a>
+          <a href="#about" className=""><MagicButton text="See My Work" icon={<FaLocationArrow />} position="right"/></a>
         </div>
       </div>
     </div>
