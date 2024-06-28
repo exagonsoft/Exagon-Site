@@ -1,6 +1,7 @@
 import Clients from "@/components/Clients";
 import Grid from "@/components/Grid";
 import HeroSection from "@/components/HeroSection";
+import Methodology from "@/components/Metodology";
 import ResentWork from "@/components/ResentWork";
 import { FloatingNav } from "@/components/ui/FloattingNavBar";
 import WorkExperience from "@/components/WorkExperience";
@@ -18,6 +19,7 @@ export default function Home() {
         <ResentWork />
         <Clients />
         <WorkExperience />
+        <Methodology />
       </div>
     </main>
   );

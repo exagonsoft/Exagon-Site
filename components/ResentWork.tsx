@@ -8,7 +8,7 @@ const ResentWork = () => {
   return (
     <section id="projects" className="py-20">
       <h1 className="heading">
-        An small section of <span className="text-purple">recent projects</span>
+        A small section of <span className="text-purple">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map(({ id, title, des, iconLists, img, link }) => (

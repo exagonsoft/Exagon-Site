@@ -10,6 +10,7 @@ import animationData from "@/data/confetti.json";
 import MagicButton from "./MagicButton";
 import { IoCopyOutline } from "react-icons/io5";
 import Image from "next/image";
+import Lottie from "react-lottie";
 
 export const BentoGrid = ({
   className,
@@ -53,6 +54,9 @@ export const BentoGridItem = ({
   const handleCopyEmail = () => {
     navigator.clipboard.writeText("exagonsoft@exagon-soft.com");
     setCopied(true);
+    setTimeout(() => {
+      setCopied(false);
+    }, 3000);
   };
   return (
     <div
@@ -152,7 +156,7 @@ export const BentoGridItem = ({
                 /> */}
               </div>
               <MagicButton
-                text={copied ? "Email Copied" : "Copy our Email"}
+                text={copied ? "Email Copied" : "Copy my Email"}
                 icon={<IoCopyOutline />}
                 position="left"
                 otherClasses="!bg-[#161a31]"
