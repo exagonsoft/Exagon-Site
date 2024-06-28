@@ -3,6 +3,7 @@ import { InfiniteMovingCards } from "./ui/InfiniteCards";
 import { companies, testimonials } from "@/data";
 import MagicButton from "./ui/MagicButton";
 import { FaComment } from "react-icons/fa";
+import Image from "next/image";
 
 const Clients = () => {
   return (
@@ -21,8 +22,8 @@ const Clients = () => {
         <div className="flex flex-wrap items-center justify-center gap-4 md:gap-16 mt-20 py-2">
             {companies.map(({id, img, name, nameImg}) => (
                 <div key={id} className="flex md:max-w-60 max-w-32 gap-2">
-                    <img src={img} alt="name" className="md:w-10 w-5" />
-                    <img src={nameImg} alt="name" className="md:w-24 w-20" />
+                    <Image width={40} height={40} src={img} alt="name" className="md:w-10 w-5 h-auto" />
+                    <Image width={96} height={40} src={nameImg} alt="name" className="md:w-24 w-20 h-auto" />
                 </div>
             ))}
         </div>

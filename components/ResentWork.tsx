@@ -2,12 +2,13 @@ import { projects } from "@/data";
 import React from "react";
 import { PinContainer } from "./ui/3d-pin";
 import { FaLocationArrow } from "react-icons/fa";
+import Image from "next/image";
 
 const ResentWork = () => {
   return (
     <section id="projects" className="py-20">
       <h1 className="heading">
-        A small section of <span className="text-purple">recent projects</span>
+        An small section of <span className="text-purple">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
         {projects.map(({ id, title, des, iconLists, img, link }) => (
@@ -18,9 +19,9 @@ const ResentWork = () => {
             <PinContainer href={link} title={link}>
               <div className="relative flex items-center justify-center sm:w-[570px] w-[80vw] overflow-hidden sm:h-[40vh] h-[30vh] mb-10">
                 <div className="relative w-full h-full overflow-hidden lg:rounded-3xl bg-[#13162d]">
-                  <img src="bg.png" alt="bg-img" className="" />
+                  <Image width={20} height={20} src="/bg.png" alt="bg-img" className="w-[100%] h-[100%]" />
                 </div>
-                <img src={img} alt={title} className="z-10 w-full absolute bottom-0" />
+                <Image src={img} alt={title} width={500} height={500} className="z-10 w-full h-full absolute bottom-0" />
               </div>
               <h1 className="font-bold lg:text-2xl md:text-xl text-base line-clamp-1">
                 {title}
@@ -36,7 +37,7 @@ const ResentWork = () => {
                       className="border border-white/[0.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
                       style={{ transform: `translateX(-${5 * index * 2}px)` }}
                     >
-                      <img src={icon} alt="tech" className="p-2" />
+                      <Image width={20} height={20} src={icon} alt="tech" className="p-2 w-full h-full" />
                     </div>
                   ))}
                 </div>
