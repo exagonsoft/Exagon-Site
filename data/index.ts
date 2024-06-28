@@ -239,14 +239,17 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    link: "https://github.com/exagonsoft"
   },
   {
     id: 2,
     img: "/twit.svg",
+    link: "https://x.com/exagonsoft"
   },
   {
     id: 3,
     img: "/link.svg",
+    link: "https://www.linkedin.com/in/msc-alvaro-raul-martin-peraza-165114210/"
   },
 ];
 
