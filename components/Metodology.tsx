@@ -6,7 +6,7 @@ import { CanvasRevealEffect } from "@/components/ui/canvasRevealEffect";
 
 const Methodology = () => {
   return (
-    <section id="projects" className="py-20 w-full">
+    <section id="methodology" className="py-20 w-full">
       <h1 className="heading">
         My usual<span className="text-purple"> Approach</span>
       </h1>
@@ -68,7 +68,7 @@ const Card = ({
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative rounded-3xl lg:h-[35rem] h-[30rem]"
+      className="border border-black/[0.2] group/canvas-card flex items-center justify-center dark:border-white/[0.2]  max-w-sm w-full mx-auto p-4 relative rounded-3xl lg:h-[35rem] h-[15rem]"
     >
       <Icon className="absolute h-6 w-6 -top-3 -left-3 dark:text-white text-black" />
       <Icon className="absolute h-6 w-6 -bottom-3 -left-3 dark:text-white text-black" />
