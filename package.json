@@ -1,6 +1,6 @@
 {
   "name": "exagon-site",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -14,6 +14,7 @@
     "@react-three/fiber": "^8.16.8",
     "@sentry/nextjs": "^8.9.2",
     "clsx": "^2.1.1",
+    "exagon-site": "file:",
     "framer-motion": "^11.2.10",
     "mini-svg-data-uri": "^1.4.4",
     "next": "14.2.4",

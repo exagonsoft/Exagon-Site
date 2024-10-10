@@ -131,6 +131,14 @@ export const projects = [
     iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/postgres.png", "/aws.png"],
     link: "https://www.savvyshopspot.exagon-soft.com",
   },
+  {
+    id: 6,
+    title: "Health Care and Beauty Web Site - Blog",
+    des: "Modern and responsive beauty blog built with Next.js. The app provides a seamless user experience with fast page loads and dynamic content.",
+    img: "/p6.png",
+    iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/postgres.png", "/aws.png"],
+    link: "https://www.glowinglyme.com/",
+  },
 ];
 
 export const testimonials = [
